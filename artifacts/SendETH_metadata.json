@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloWeb3.sol": "SendETH"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloWeb3.sol": {
+			"keccak256": "0x189171819f9fa0232033e29f5f826b07ed28d5263cc99009872860fdabe382d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://022e09f1078316b676583082713b799bd1c7a0f2aa258bfb52be3834af5231ef",
+				"dweb:/ipfs/QmXAoVRNjMFcXY3ade9Pa2gSYM3uNwBBnofz6M9fZRy6gM"
+			]
+		}
+	},
+	"version": 1
+}

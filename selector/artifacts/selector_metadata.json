@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"selector/Selector.sol": "selector"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"selector/Selector.sol": {
+			"keccak256": "0xf84979b266aede128b0559bf10bb4e6a7d6c0330e08088363909cd6cab885e76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58a78299a22aaaacd5d62873b08ed7b37a3297e73e083d83dd5eaaebefceafe7",
+				"dweb:/ipfs/QmPEWTa6gmFi4eetoVe2BWbn4bMaw1tBbaG6RHNot3nogU"
+			]
+		}
+	},
+	"version": 1
+}

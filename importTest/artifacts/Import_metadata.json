@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"importTest/Import.sol": "Import"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40fb1b5102468f783961d0af743f91b9980cf66b50d1d12009f6bb1869cea4d2",
+				"dweb:/ipfs/QmYqEbJML4jB1GHbzD4cUZDtJg5wVwNm3vDJq1GbyDus8y"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Address.sol": {
+			"keccak256": "0x68404b57d114b893554b0e54334b32f578f5d1abf61830025c83fb71dc1944ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3d0a94b3c8afd92c2a9f03f3325e9ac22cec56e995b94ff212670ff3653f0d3",
+				"dweb:/ipfs/QmPqKWUysbo8QqKcqH5Lp7SQiL1LfjeoGCSa7iFWmAP8Mw"
+			]
+		},
+		"importTest/Import.sol": {
+			"keccak256": "0x7a36caa8a326b7be1148f56db6ffd4622caa6784b537704d57ed727b48b88ecb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef77df9f7fbc11ed781fd731a82ad766026ba4b76187d09e3c0c566a21c4c27c",
+				"dweb:/ipfs/QmTAKtDtKZKG3kmHZQC8eE1UZvsMijCrjj8ptHMVvHLGwT"
+			]
+		},
+		"importTest/Yeye.sol": {
+			"keccak256": "0xb57022da7e75eefaf0989a0e3390ffce5a94971388af93c6239b0cebbeb17b53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c50aa051e96d6d3351e159eaee8d9f3fbf03b0f86c7bc7cf58e21833cee4f8ce",
+				"dweb:/ipfs/QmQEafdU1WmJCGvv7742KBjEBPLiNTXYdTyfh7Hk6Zgirc"
+			]
+		}
+	},
+	"version": 1
+}
